@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Check</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      background-color: white;
+    }
+
+    h4 {
+      color: rgb(245, 9, 9);
+      margin-top: 50px;
+      font-size: 40px;
+    }
+
+    h5 {
+      color: black;
+      margin-top: 20px;
+      font-size: larger;
+    }
+
+    #pinkBox {
+      height: 100px;
+      width: 500px;
+      background-color: rgb(232, 191, 226);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      border-radius: 30px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+
+    #yesBtn {
+      background-color: green;
+      color: white;
+    }
+
+    #noBtn {
+      background-color: red;
+      color: white;
+    }
+
+    #buttonsContainer {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    #gif {
+      margin-top: 30px;
+      /* width: 50px;
+      height: 50px; */
+    }
+  </style>
+</head>
+<body>
+
+  <h4>Please respond quickly</h4>
+
+  <div id="pinkBox">
+    <p><h5>Motu!! Do you love meee?????</h5></p>
+  </div>
+
+  <div id="buttonsContainer">
+    <a href="loveResponse.html">
+  <button id="yesBtn">Yes</button>
+</a>
+<a href="valentine1.html">
+  <button id="noBtn">No</button>
+</a>
+  </div>
+  <img id="gif" src="giphy.gif" alt="Animated GIF">
+  <!-- <script>
+    function redirectToResponse(answer) {
+      if (answer === 'yes') {
+        window.location.href = 'loveResponse.html?response=ILoveYouToo';
+      } else if (answer === 'no') {
+        window.location.href = 'noLoveResponse.html?response=AlreadyMyHusband';
+      }
+    }
+  </script> -->
+</body>
+</html>
